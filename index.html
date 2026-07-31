@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Agustín Trigatti. Imágenes, sistemas y preguntas." />
+  <meta name="theme-color" content="#11110f" />
+  <title>Agustín Trigatti · Imágenes, sistemas y preguntas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">AT</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menú</button>
+    <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#ser-oido">Ser oído</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section-shell">
+      <div class="hero-kicker">Agustín Trigatti</div>
+      <h1>Imágenes,<br />sistemas<br />y preguntas.</h1>
+      <div class="hero-bottom">
+        <p>Trabajo con aquello que todavía no encontró su forma: espacios, objetos, imágenes, relatos y conversaciones.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+          <a class="button button-ghost" href="#ser-oido">Conocer Ser oído</a>
+        </div>
+      </div>
+      <div class="hero-object" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="intro section-shell" aria-labelledby="intro-title">
+      <p class="eyebrow">Una misma operación, distintos medios</p>
+      <h2 id="intro-title">Observar algo todavía difuso, entender su lógica y ayudarlo a aparecer sin borrar su complejidad.</h2>
+      <div class="territories">
+        <article><span>01</span><h3>Visualizar</h3><p>Espacios, muebles, objetos e ideas antes de que existan.</p></article>
+        <article><span>02</span><h3>Comunicar</h3><p>Imágenes, sistemas y relatos capaces de expresar qué quiere decir un proyecto.</p></article>
+        <article><span>03</span><h3>Escuchar</h3><p>Conversaciones para pensar sin apurar lo vivido hacia una respuesta.</p></article>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects section-shell" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Selección</p><h2 id="projects-title">Proyectos</h2></div>
+        <p>Una primera selección editable. Las imágenes actuales son marcadores para reemplazar por renders, piezas o capturas reales.</p>
+      </div>
+      <div id="project-grid" class="project-grid"></div>
+    </section>
+
+    <section class="method section-shell" aria-labelledby="method-title">
+      <div class="section-heading compact"><div><p class="eyebrow">Método</p><h2 id="method-title">Cómo trabajo</h2></div></div>
+      <ol class="method-list">
+        <li><span>01</span><div><h3>Observar</h3><p>Entender el problema antes de producir.</p></div></li>
+        <li><span>02</span><div><h3>Ordenar</h3><p>Encontrar relaciones, jerarquías y sistemas.</p></div></li>
+        <li><span>03</span><div><h3>Dar forma</h3><p>Convertir lo pensado en una experiencia visible o comunicable.</p></div></li>
+        <li><span>04</span><div><h3>Ajustar</h3><p>Probar, escuchar y corregir hasta que la forma responda al proyecto.</p></div></li>
+      </ol>
+    </section>
+
+    <section id="ser-oido" class="listening section-shell" aria-labelledby="listening-title">
+      <div class="listening-mark" aria-hidden="true">( )</div>
+      <div class="listening-copy">
+        <p class="eyebrow">Ser oído</p>
+        <h2 id="listening-title">Un espacio de conversación para pensar lo que te está pasando sin apurarlo hacia una respuesta.</h2>
+        <p>No es terapia ni coaching. Es una práctica de escucha y conversación filosófica para formular mejor las preguntas, reconocer tensiones y verse con mayor claridad.</p>
+        <a class="text-link" href="#contacto">Consultar por un encuentro <span>↗</span></a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="about section-shell" aria-labelledby="about-title">
+      <div class="portrait-placeholder" role="img" aria-label="Espacio reservado para una fotografía de Agustín"><span>Tu foto</span></div>
+      <div class="about-copy">
+        <p class="eyebrow">Sobre mí</p>
+        <h2 id="about-title">Soy Agustín Trigatti, artista 3D y diseñador multidisciplinario.</h2>
+        <p>Trabajo creando imágenes, sistemas visuales y formas de comunicación para proyectos, espacios y marcas.</p>
+        <p>Estudio Filosofía en la Universidad de Buenos Aires y me interesan especialmente la escucha, la pregunta y las maneras en que construimos sentido.</p>
+        <div class="facts"><span>Buenos Aires, Argentina</span><span>Blender · After Effects · Adobe · Figma</span><span>Disponible para proyectos y colaboraciones</span></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact section-shell" aria-labelledby="contact-title">
+      <p class="eyebrow">Contacto</p>
+      <h2 id="contact-title">¿Hay algo que todavía no encontró su forma?</h2>
+      <p>Podés escribirme por un proyecto de 3D, diseño, comunicación, una colaboración o un encuentro de Ser oído.</p>
+      <a class="contact-mail" href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a>
+      <div class="socials"><a href="#">Instagram</a><a href="#">Behance</a><a href="#">LinkedIn</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><span>© <span id="year"></span> Agustín Trigatti</span><a href="#inicio">Volver arriba ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
